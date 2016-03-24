@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 new LatLng(40.4428963, -79.941846), new LatLng(40.4435963, -79.945846)};
 
         for (LatLng ll : MOCK_DATA) {
-            mMap.addMarker(new MarkerOptions().position(ll));
+            mMap.addMarker(new MarkerOptions().title("CMU").snippet("bruh").position(ll));
         }
     }
 
